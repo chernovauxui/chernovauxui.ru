@@ -1,0 +1,78 @@
+/* media.css */
+@media only screen and (max-width: 480px) {
+	.main {
+		padding: 26px 20px 20px;
+	}
+
+	.header {
+		margin-bottom: 63px;
+	}
+
+	.header__logo {
+		font-size: 20px;
+	}
+
+	.header__socials-list {
+		display: flex;
+		font-size: 16px;
+		gap: 20px;
+	}
+
+	.header__socials-item:not(:last-child) {
+		margin-bottom: 0;
+	}
+
+	.header__container {
+		column-gap: 20px;
+		row-gap: 24px;
+		flex-direction: column;
+	}
+
+	.s-main__icon {
+		width: 38px;
+	}
+
+	.s-main__supertitle {
+		font-size: 20px;
+		margin-bottom: 30px;
+	}
+
+	.maintenance .s-main__supertitle {
+		margin-bottom: 0;
+		font-size: 16px;
+	}
+
+	.s-main__supertitle.--right {
+		margin-top: 40px;
+	}
+
+	.s-main__title {
+		margin-top: 33px;
+		font-size: 32px;
+	}
+
+	.s-main__social-list {
+		font-size: 18px;
+		justify-content: flex-start;
+		margin-bottom: 40px;
+		row-gap: 16px;
+		flex-direction: column;
+	}
+
+	.s-main__project-list {
+		font-size: 16px;
+		flex-direction: column;
+	}
+
+	.maintenance {
+		display: flex;
+		gap: 20px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	br.mobile {
+		display: none;
+	}
+}
